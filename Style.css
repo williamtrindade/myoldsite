@@ -1,0 +1,224 @@
+html{
+	background-color: white;
+	
+	
+}
+#nomedosite{
+	color:black;
+	font-family: 'Oswald', sans-serif;
+
+b
+}
+#navegação{
+	
+}
+#cabeçalho{
+	font-family:Arial;
+	
+	color:#F0E68C;
+	width:100%;
+	height:100px;
+	font-size:50px;
+	text-align:center;
+	padding:0%;
+}
+/*sobre mim*/
+#divfoto{
+	height: 200px;
+	width: 200px;
+
+	
+}
+#perfil{
+	height: 100%;
+	width: 100%;
+	border-radius: 100%;
+	border:2px solid white;
+
+}
+
+
+#Sobre1{
+	
+	float: left;
+	height: 400px;
+	width: 500px;
+	border: 0px solid red;
+background-color: #14141f;
+}
+#Sobre{
+	
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+}
+#Sobre1 p{
+	
+	font-family: 'Lobster', cursive;
+	color:#f2f2f2;
+}
+/*sobre mim*/
+/*email*/
+#email1{
+
+	background-color: #14141f;
+	float: right;
+	height: 400px;
+	width: 849px;
+	border: 0px solid red;
+
+}
+#emailtitulo{
+	color: white;
+	font-family: 'Fjalla One', sans-serif;
+}
+form{
+	color: white;
+
+}
+/*email*/
+
+	
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family:Arial;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+/*slideshows*/
+#slides1{
+	float: center;
+
+}
+/*slideshows*/
+/*footer*/
+p{
+	font-family: Arial;
+	color:white;
+
+}
+#footer{
+	background-color: black;
+}
+/*footer*/
+
+/*nav*/
+/* Remove margins and padding from the list, and add a black background color */
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+/* Float the list items side by side */
+ul.topnav li {float: left;}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {background-color: #555;}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {display: none;}
+/*portfolio*/
+
+div.img {
+    border: 1px solid #ccc;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+   
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*portfolio*/
+#textportfólio{
+	color: black;
+	font-family: 'Fjalla One', sans-serif;
+	background-color:#668cff;
+}
+#rs{
+	height: 30px;
+	width: 30px;
+}
+#lidars{
+
+	}
+#an{
+	font-family: 'Lobster', cursive;
+}
+#redes{
+	background-color: blue;
+	height:300px;
+	width: 50%;
+}

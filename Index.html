@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--ESTILO DAS FONTES GOOGLE-->
+<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Fjalla+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+<!--ESTILO DAS FONTES GOOGLE-->
+
+<!--ESTILO DOS SLIDES-->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<!--ESTILO DOS SLIDES FIM-->
+		<meta charset="UTF-8">
+		<title>William Trindade</title>
+		<link rel='stylesheet' type='text/css' href='Style.css'>
+		<script src="Script.js"></script>
+</head>
+<body>
+
+<!--Navegação inicio-->
+<h1  font-family: 'Abel';font-size: 22px; id='nomedosite'>William Trindade</h1>
+	<ul class="topnav" id="myTopnav">
+ 	<li><a href="Index.html">Home</a></li>
+  	<li><a href="Portfólio.html">Portfólio</a></li>
+  	<li><a href="Como_trabalhamos.html">Como trabalhamos</a></li>
+
+  	
+  	<li id="lidars"><a href="https://www.facebook.com/williamtrindade1010" target="_blank" ><img id="rs" border="0" src="https://cdn1.iconfinder.com/data/icons/logotypes/32/square-facebook-512.png" /></a></li>
+
+  	<li id="lidars"><a href="https://twitter.com/williamtr7?lang=pt-br" target="_blank" ><img id="rs" border="0" src="http://www.freeiconspng.com/uploads/-van-nederland-elgie-gaat-haar-ontwikkeling-posten-op-twitter-24.png" /></a></li>
+
+  	<li id="lidars"><a href="https://www.instagram.com/william_trindade1/?hl=pt-br" target="_blank" ><img id="rs" border="0" src="http://3835642c2693476aa717-d4b78efce91b9730bcca725cf9bb0b37.r51.cf1.rackcdn.com/Instagram_App_Large_May2016_200.png" /></a></li>
+
+  	<li id="lidars"><a href="https://www.youtube.com/channel/UCwjLbFXn7ABM9NROYGd7KnA" target="_blank" ><img id="rs" border="0" src="https://cdn2.iconfinder.com/data/icons/micon-social-pack/512/youtube2-128.png" /></a></li>
+
+  	<li id="lidars"><a href="https://www.linkedin.com/in/williamtrindade1" target="_blank" ><img id="rs" border="0" src="https://cdn0.iconfinder.com/data/icons/social-flat-rounded-rects/512/linkedin-512.png" /></a></li>
+
+  	<li class="icon">
+    <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+  </li>
+</ul>
+<!--Navegação fim-->
+
+<h2 id="textportfólio">Bem-Vindo peça seu serviço!</h2>
+
+<!--SlideShow Inicio-->
+<div id="slides1" class="w3-content w3-section" style="max-width:800px">
+
+  <img class="mySlides" src="https://3.bp.blogspot.com/-Uy8DG4bAJVk/WII42xe9qPI/AAAAAAAACow/5oEbhvEDS_8gD01yVtGFqgrzohtxfs1NACLcB/s1600/1.png" style="width:100%">
+  <img class="mySlides" src="https://1.bp.blogspot.com/-_aDiey6clik/WII4-mGjsDI/AAAAAAAACo4/xwbc8KWkGvERs9U_HFL6IY_cBmfwsnlwQCLcB/s1600/2.png" style="width:100%">
+  <img class="mySlides" src="https://4.bp.blogspot.com/-LCFGwvcRPoc/WII47JjIFrI/AAAAAAAACo0/gCetrsiTFOQyvhQMpNWrn5s1K-ggI-HCACLcB/s1600/3.png" style="width:100%">
+</div>
+	
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+<!--SlideShow Fim-->
+
+
+<!--SOBRE MIM-->
+<div id="Sobre1">
+	<h2 id="Sobre">Sobre Mim</h2>
+	<div id="divfoto"> <img id="perfil" src="https://1.bp.blogspot.com/-DuXq88jrO3Y/WIY8c-tS7KI/AAAAAAAACpg/NHTHIU28W4YtGwWNRtFwtC1DWPTkvVsoACLcB/s1600/photo4913855217473267627.jpg"> </div>
+	<p>Programador Front-End , formado como programador , cursando o ensino superior em ciência da computação , natural de Sapucaia do Sul-RS</p>
+</div>
+<!--SOBRE MIM FIM-->
+<!--Formulário de e-mail-->
+<div id="email1">
+<h2 id="emailtitulo">Envie seu pedido de projeto</h2>
+<form action="mailto:williamtrindade.contato@gmail.com" method="post" enctype="text/plain">
+Nome:<br>
+<input type="text" name="name"><br>
+
+E-mail:<br>
+<input type="text" name="mail"><br>
+
+Mensagem:<br>
+<input type="text" name="Mensagem" size="60"><br><br>
+
+<input type="submit" value="Send">
+<input type="reset" value="Reset">
+</form>
+</div>
+<!--Formulario de email fim-->
+
+<!--Anunciantes-->
+<h2 id="an">Anuncie aqui!!!</h2>
+
+<a href='https://www.facebook.com/jrinformaticacanoas/?fref=ts' target="_blank">
+	<img src='https://lh3.googleusercontent.com/9wGSgKSZ8VI79TBPQXbc46ngHXptYqot551gi00oQeObhjfPdlMgRKfJh9CrZphLP5z19Kw=s713-fcrop64=1,000001feffb4fb01' width='100px' alt='Assistência técnica'>
+</a>
+<a href="" target="_blank" ><img src=""  width='100px' ></a>
+<!--Anunciantes-->
+
+
+<div id="redes">
+	<h2 id="Sobre">Facebook</h2>	
+
+
+
+</div>
+
+<!--footer-->
+<footer id="footer">
+  <p>Copyright © 2016 William Trindade todos os Direitos Reservados.</p>
+ </footer>
+<!--footer-->
+	
+</body>
+</html>
